@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root{
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.lefttxt{
+    padding: 50px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+.lefttxt h1{
+    font-size: 40px;
+    color: var(--Very-Dark-Magenta);
+    margin-bottom: 20px;
+}
+.lefttxt p{
+    font-size: 16px;
+    color: var(--Dark-Grayish-Magenta);
+    margin-bottom: 10px;
+    letter-spacing: 0.6px;
+    line-height: 20px;
+}
+
+
+.righttxt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.righttxt h3 {
+    color: var(--Very-Dark-Magenta);
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.righttxt img{
+    margin-right: 5px;
+}
+
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+.comments div{
+    background-color: var(--Very-Dark-Magenta);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.comments p{
+    font-size: 13px;
+    color: var(--White);
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+}
+.comments h4 {
+    font-size: 15px;
+    color: var(--White);
+    margin-top: -42px;
+    margin-left: 50px;
+    line-height: 1.1;
+    margin-left: 60px;
+
+}
+.comments .buyer{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--Soft-Pink);
+    margin-top: 5px;
+}
+.comments img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
